@@ -11,7 +11,7 @@ Variables
 
 |Variable Name|Variable Description|
 |:------------|:-------------------|
-|\[S_{latency}\]|Overall, theoretical speedup of the entire task by the improvement|
+|![](https://latex.codecogs.com/gif.latex?\bg_black&space;\huge&space;S_{latency})|Overall, theoretical speedup of the entire task by the improvement|
 |||
 |p|Proportion of execution time that the part benefiting from improved resources originally occupied|
 |||
