@@ -58,23 +58,12 @@ Programming Languages
 -
 C
 ```C
-    #include <stdlib.h>
-    #include <stdio.h>
-
     double amdahls_law_ratio(double p, double s){
       return 1 / (1 - p + p/s);
     }
 
     double amdahls_law_percentage(double p, double s){
       return 1 / (1 - (p/100) + (p/100) / s);
-    }
-
-    int main(void){
-
-      printf("%f \n", amdahls_law_ratio(0.6, 3));
-      printf("%f \n", amdahls_law_percentage(60, 3));
-
-      return EXIT_SUCCESS;
     }
 ```
 Clojure
@@ -84,28 +73,24 @@ Clojure
 
 (defn amdahls_law_percentage [p s]
   (/ 1.0 (+  1.0 (- (/ p 100.0)) (/ (/ p 100.0) s))))
+```
+Haskell
+```hs
+amdahls_law_ratio :: Double -> Double -> Double
+amdahls_law_ratio p s = 1 / (1 - p + p/s) 
 
-(amdahls_law_ratio 0.6 3)
-(amdahls_law_percentage 60 3)
-
+amdahls_law_percentage :: Double -> Double -> Double
+amdahls_law_percentage p s = 1 / (1 - (p/100) + (p/100) / s)
 ```
 Javascript
 ```js
 const amdahls_law_ratio = (p, s) => 1 / (1 - p + p/s);
 
 const amdahls_law_percentage = (p, s) => 1 / (1 - (p/100) + (p/100) / s);
-
-console.log(amdahls_law_ratio(0.6, 3));
-console.log(amdahls_law_percentage(60, 3));
 ```
 Python
 ```py
 amdahls_law_ratio = lambda p, s : 1 / (1 - p + p / s)
 
 amdahls_law_percentage = lambda p, s : 1 / (1 - (p/100) + (p/100) / s)
-
-print(amdahls_law_ratio(0.6, 3))
-
-print(amdahls_law_percentage(60, 3))
-
 ```
