@@ -38,6 +38,22 @@ or
 
 Notice that a significant increase to the speed of a part led to a much more modest increase in overall system performance.
 
+Wikipedia Article
+-----------------
+
+<https://en.wikipedia.org/wiki/Amdahl%27s_law>
+
+Trivia
+------
+
+Sometimes called Amdahl’s argument.
+
+named after computer scientist Gene Amdahl.
+
+Was presented at the AFIPS Spring Joint Computer Conference in 1967.
+
+Often used in parallel computing to predict the theoretical speedup when using multiple processors.
+
 C
 -
 ```C
@@ -60,18 +76,17 @@ C
       return EXIT_SUCCESS;
     }
 ```
-Wikipedia Article
------------------
+Clojure
+_
+```clj
+(defn amdahls_law_ratio [p s]
+  (/ 1.0 (+  1.0 (- p) (/ p s))))
 
-<https://en.wikipedia.org/wiki/Amdahl%27s_law>
+(defn amdahls_law_percentage [p s]
+  (/ 1.0 (+  1.0 (- (/ p 100.0)) (/ (/ p 100.0) s))))
 
-Trivia
-------
+(amdahls_law_ratio 0.6 3)
+(amdahls_law_percentage 60 3)
 
-Sometimes called Amdahl’s argument.
 
-named after computer scientist Gene Amdahl.
-
-Was presented at the AFIPS Spring Joint Computer Conference in 1967.
-
-Often used in parallel computing to predict the theoretical speedup when using multiple processors.
+```
