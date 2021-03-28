@@ -4,7 +4,7 @@ Amdahl’s Law
 Formula
 -------
 
-\[S_{latency(s)} = \frac{1}{1 - p + \frac{p}{s}}\]
+https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;S_{latency(s)}&space;=&space;\frac{1}{1&space;-&space;p&space;&plus;&space;\frac{p}{s}}
 
 Variables
 ---------
@@ -28,13 +28,13 @@ Example
 
 A system part initially consumes 60% of execution time (p = 0.6). The part is sped up by a factor of 3 (s = 3)
 
-\[speedup = \frac{1}{1 - p + \frac{p}{s}}\]
+https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;speedup&space;=&space;\frac{1}{1&space;-&space;p&space;&plus;&space;\frac{p}{s}}
 
-\[1 / (1 - 0.6 + 0.6/3) = 1.66666666667\]
+https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;1&space;/&space;(1&space;-&space;0.6&space;&plus;&space;0.6/3)&space;=&space;1.66666666667
 
 or
 
-\[speedup = \frac{1}{1 - 0.6 + \frac{0.6}{3}} = 1.66666666667\]
+https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;speedup&space;=&space;\frac{1}{1&space;-&space;0.6&space;&plus;&space;\frac{0.6}{3}}&space;=&space;1.66666666667
 
 Notice that a significant increase to the speed of a part led to a much more modest increase in overall system performance.
 
