@@ -30,7 +30,7 @@ A system part initially consumes 60% of execution time (p = 0.6). The part is sp
 
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;speedup&space;=&space;\frac{1}{1&space;-&space;p&space;&plus;&space;\frac{p}{s}})
 
-![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;1&space;\div&space;(1&space;-&space;0.6&space;&plus;&space;(0.6&space;\div&space;3))&space;=&space;1.666666666667)
+![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;1&space;\div&space;(1&space;-&space;0.6&space;&plus;&space;(0.6&space;\div&space;3))&space;=&space;1.66666666667)
 
 or
 
