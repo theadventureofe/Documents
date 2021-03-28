@@ -11,7 +11,7 @@ Variables
 
 |Variable Name|Variable Description|
 |:------------|:-------------------|
-|![](https://latex.codecogs.com/gif.latex?\bg_black&space;\huge&space;S_{latency})|Overall, theoretical speedup of the entire task by the improvement|
+|![](https://latex.codecogs.com/gif.latex?\bg_black&space;\huge&space;S_{latency(s)})|Overall, theoretical speedup of the entire task by the improvement|
 |||
 |p|Proportion of execution time that the part benefiting from improved resources originally occupied|
 |||
@@ -40,7 +40,7 @@ Notice that a significant increase to the speed of a part led to a much more mod
 
 C
 -
-
+```C
     #include <stdlib.h>
     #include <stdio.h>
 
@@ -59,7 +59,7 @@ C
 
       return EXIT_SUCCESS;
     }
-
+```
 Wikipedia Article
 -----------------
 
