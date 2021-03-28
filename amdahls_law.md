@@ -98,3 +98,14 @@ const amdahls_law_percentage = (p, s) => 1 / (1 - (p/100) + (p/100) / s);
 console.log(amdahls_law_ratio(0.6, 3));
 console.log(amdahls_law_percentage(60, 3));
 ```
+Python
+```py
+amdahls_law_ratio = lambda p, s : 1 / (1 - p + p / s)
+
+amdahls_law_percentage = lambda p, s : 1 / (1 - (p/100) + (p/100) / s)
+
+print(amdahls_law_ratio(0.6, 3))
+
+print(amdahls_law_percentage(60, 3))
+
+```
