@@ -66,7 +66,7 @@ C
     }
 
     double amdahls_law_percentage(double p, double s){
-      return 1 / (1 - (p/100) + (p/100)/s);
+      return 1 / (1 - (p/100) + (p/100) / s);
     }
 
     int main(void){
@@ -93,7 +93,7 @@ Javascript
 ```js
 const amdahls_law_ratio = (p, s) => 1 / (1 - p + p/s);
 
-const amdahls_law_percentage = (p, s) => 1 / (1 - (p/100) + (p/100)/s);
+const amdahls_law_percentage = (p, s) => 1 / (1 - (p/100) + (p/100) / s);
 
 console.log(amdahls_law_ratio(0.6, 3));
 console.log(amdahls_law_percentage(60, 3));
