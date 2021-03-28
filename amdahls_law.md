@@ -11,7 +11,7 @@ Variables
 
 |Variable Name|Variable Description|
 |:------------|:-------------------|
-|![](https://latex.codecogs.com/gif.latex?\bg_black&space;\huge&space;S_{latency(s)})|Overall, theoretical speedup of the entire task by the improvement|
+|![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;S_{latency(s)})|Overall, theoretical speedup of the entire task by the improvement|
 |||
 |p|Proportion of execution time that the part benefiting from improved resources originally occupied|
 |||
@@ -52,7 +52,7 @@ C
       return 1 / (1 - (p/100) + (p/100)/s);
     }
 
-    int main(int argc, char** argv){
+    int main(void){
 
       printf("%f \n", amdahls_law_ratio(0.6, 3));
       printf("%f \n", amdahls_law_percentage(60, 3));
