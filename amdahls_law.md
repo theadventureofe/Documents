@@ -62,7 +62,7 @@ C
     #include <stdio.h>
 
     double amdahls_law_ratio(double p, double s){
-      return 1/(1 - p + p/s);
+      return 1 / (1 - p + p/s);
     }
 
     double amdahls_law_percentage(double p, double s){
@@ -91,7 +91,7 @@ Clojure
 ```
 Javascript
 ```js
-const amdahls_law_ratio = (p, s) => 1/(1 - p + p/s);
+const amdahls_law_ratio = (p, s) => 1 / (1 - p + p/s);
 
 const amdahls_law_percentage = (p, s) => 1 / (1 - (p/100) + (p/100)/s);
 
