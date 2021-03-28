@@ -54,8 +54,9 @@ Was presented at the AFIPS Spring Joint Computer Conference in 1967.
 
 Often used in parallel computing to predict the theoretical speedup when using multiple processors.
 
-C
+Programming Languages
 -
+C
 ```C
     #include <stdlib.h>
     #include <stdio.h>
@@ -77,7 +78,6 @@ C
     }
 ```
 Clojure
-_
 ```clj
 (defn amdahls_law_ratio [p s]
   (/ 1.0 (+  1.0 (- p) (/ p s))))
@@ -87,6 +87,5 @@ _
 
 (amdahls_law_ratio 0.6 3)
 (amdahls_law_percentage 60 3)
-
 
 ```
