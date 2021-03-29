@@ -61,7 +61,7 @@ or
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;speedup&space;=&space;\frac{1}{1&space;-&space;0.6&space;&plus;&space;\frac{0.6}{3}}&space;=&space;1.66666666667)
 Notice that a significant increase to the speed of a part led to a much more modest increase in overall system performance.
 
-##Example Latex
+## Example Latex
 
 ```
 \[speedup = \frac{1}{1 - p + \frac{p}{s}}\]
