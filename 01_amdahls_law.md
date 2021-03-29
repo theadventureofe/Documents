@@ -25,7 +25,7 @@
 
 <tbody>
 <tr>
-<td> ![](https://latex.codecogs.com/gif.latex?%5Cbg_black&space;%5CLARGE&space;S_%7Blatency(s)}) </td>
+<td> ![](https://latex.codecogs.com/gif.latex?%5Cbg_black&space;%5CLARGE&space;S_%7Blatency(s)) </td>
 <td>Overall, theoretical speedup of the entire task by the improvement</td>
 </tr>
 
@@ -62,7 +62,7 @@ A system part initially consumes 60% of execution time (p = 0.6). The part is sp
 ```
 or
 
-1[](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;speedup&space;=&space;\frac{1}{1&space;-&space;0.6&space;&plus;&space;\frac{0.6}{3}}&space;=&space;1.66666666667>)
+![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;speedup&space;=&space;\frac{1}{1&space;-&space;0.6&space;&plus;&space;\frac{0.6}{3}}&space;=&space;1.66666666667>)
 ```
 \[speedup = \frac{1}{1 - 0.6 + \frac{0.6}{3}} = 1.66666666667\]
 ```
