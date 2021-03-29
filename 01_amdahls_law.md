@@ -98,23 +98,12 @@ Notice that a significant increase to the speed of a part led to a much more mod
 
 ### C
 ```C
-    #include <stdlib.h>
-    #include <stdio.h>
-    
     double amdahls_law_ratio(double p, double s){
       return 1 / (1 - p + p/s);
     }
     
     double amdahls_law_percentage(double p, double s){
       return 1 / (1 - (p/100) + (p/100)/s);
-    }
-    
-    int main(int argc, char** argv){
-    
-      printf("%f \n", amdahls_law_ratio(0.6, 3));
-      printf("%f \n", amdahls_law_percentage(60, 3));
-    
-      return EXIT_SUCCESS;
     }
 ```
 ### C++17
