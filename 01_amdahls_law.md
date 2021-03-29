@@ -59,7 +59,7 @@ A system part initially consumes 60% of execution time (p = 0.6). The part is sp
 ```
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;1&space;\div&space;(1&space;-&space;0.6&space;&plus;&space;(0.6&space;\div&space;3))&space;=&space;1.66666666667)
 ```
-\[1 / (1 - 0.6 + 0.6/3) = 1.66666666667\]
+1 \div (1 - 0.6 + (0.6 \div3)) = 1.66666666667
 ```
 or
 
