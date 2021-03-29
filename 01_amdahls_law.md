@@ -25,7 +25,8 @@
 
 <tbody>
 <tr>
-<td> ![](https://latex.codecogs.com/gif.latex?%5Cbg_black&space;%5CLARGE&space;S_%7Blatency(s)) </td>
+<td> ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;S_{latency(s)}) </td>
+
 <td>Overall, theoretical speedup of the entire task by the improvement</td>
 </tr>
 
