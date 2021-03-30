@@ -153,6 +153,36 @@ Notice that a significant increase to the speed of a part led to a much more mod
     
     const amdahls_law_percentage = (p: number, s: number): number => 1 / (1 - (p/100) + (p/100) / s);
 ```
+## Graphs
+
+![](https://user-images.githubusercontent.com/80133802/113050057-56ac7300-919c-11eb-98a9-968f08788b4d.png)
+
+### Graph Code
+
+#### Python
+
+```python
+import numpy as np
+import csv
+import matplotlib.pyplot as plt
+
+my_range = np.linspace(0,100,100)
+
+amdahls_law = lambda p, s : 1 / (1 - (p/100) + (p/100) / s)
+
+plot_factor = lambda my_range, factor:  plt.plot(amdahls_law(my_range, factor), my_range, label = "(s) Part sped up by a factor of " + str(factor))
+
+plot_factor(my_range, 2)
+plot_factor(my_range, 3)
+plot_factor(my_range, 4)
+
+plt.title(r'Amdahls Law')
+plt.xlabel('(SLatency): Total Improvement of system')
+plt.ylabel('(P): % of time the part previously occupied')
+plt.grid(color='black', linestyle='-', linewidth=0.5)
+plt.legend()
+plt.show()
+```
 
 ## Trivia
 
