@@ -25,19 +25,20 @@
 
 <tbody>
 <tr>
-<td> <img src= "https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;S_{latency(s)}" </td>
+<td> <img src= "https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;S_{latency(s)}"> </img></td>
 
 <td>Overall, theoretical speedup of the entire task by the improvement</td>
 </tr>
 
 <tr>
-<td class="org-left">p</td>
-<td class="org-left">Proportion of execution time that the part benefiting from improved resources originally occupied</td>
+<td> <img src ="https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;p"> </img> </td>
+
+<td>Proportion of execution time that the part benefiting from improved resources originally occupied</td>
 </tr>
 
 <tr>
-<td class="org-left">s</td>
-<td class="org-left">speedup of the part of the task that benefits from improved system resources</td>
+<td class="org-left"><img src = "https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;s"></img></td>
+<td>speedup of the part of the task that benefits from improved system resources</td>
 </tr>
 </tbody>
 </table>
