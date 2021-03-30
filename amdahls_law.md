@@ -43,8 +43,6 @@
 </tbody>
 </table>
 
-
-
 ## Notes
 
 A formula to work out the theoretical speedup of an entire task by improving only a part of the code or system.
@@ -71,13 +69,12 @@ Notice that a significant increase to the speed of a part led to a much more mod
 ```
 
 ```
-1 \div (1 - 0.6 + (0.6 \div3)) = 1.66666666667
+\[1 \div (1 - 0.6 + (0.6 \div3)) = 1.66666666667\]
 ```
 
 ```
 \[speedup = \frac{1}{1 - 0.6 + \frac{0.6}{3}} = 1.66666666667\]
 ```
-
 
 ## Links
 
