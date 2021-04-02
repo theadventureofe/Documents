@@ -4,7 +4,9 @@
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;I&space;=&space;\frac{V}{R})
 
 ## Latex
+```
 \[I = \frac{V}{R}\]
+```
 
 ## Variables
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
