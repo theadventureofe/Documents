@@ -4,7 +4,7 @@
 
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;S_{latency(s)>}&space;=&space;\frac{1}{1&space;-&space;p&space;&plus;&space;\frac{p}{s}})
 
-## Latex
+## LaTeX
 ```
 \[S_{latency(s)} = \frac{1}{1 - p + \frac{p}{s}}\]
 ```
@@ -57,7 +57,7 @@ or
 
 Notice that a significant increase to the speed of a part led to a much more modest increase in overall system performance.
 
-## Example Latex
+## Example LaTeX
 
 ```
 \[speedup = \frac{1}{1 - p + \frac{p}{s}}\]

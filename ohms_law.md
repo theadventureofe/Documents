@@ -3,7 +3,7 @@
 ## Formula
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;I&space;=&space;\frac{V}{R})
 
-## Latex
+## LaTeX
 ```
 \[I = \frac{V}{R}\]
 ```
