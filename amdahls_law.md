@@ -11,15 +11,10 @@
 ## Variables
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Variable Name</th>
-<th scope="col" class="org-left">Variable Description</th>
+<th scope="col">Variable Name</th>
+<th scope="col">Variable Description</th>
 </tr>
 </thead>
 
@@ -37,7 +32,7 @@
 </tr>
 
 <tr>
-<td class="org-left"><img src = "https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;s"></img></td>
+<td><img src = "https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;s"></img></td>
 <td>speedup of the part of the task that benefits from improved system resources</td>
 </tr>
 </tbody>
