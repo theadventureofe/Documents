@@ -81,3 +81,28 @@ Current Measured in the circuit is found to be 3 mA or milliamperes (I = 0.003).
 \[V = 600 \times 0.003\]
 \[600 \times 0.003 = 1.8V\]
 ```
+## PROGRAMMING LANGUAGES
+
+### C
+
+```C
+double ohms_law_current(double voltage, double resistance){
+  return voltage / resistance;
+}
+
+double ohms_law_voltage(double current, double resistance){
+  return current * resistance; 
+}
+
+double ohms_law_resistance(double voltage, double current){
+  return voltage / current;
+}
+```
+
+### C++17
+
+```C++
+auto ohms_law_current = [](double voltage, double resistance){return voltage / resistance;};
+auto ohms_law_voltage = [](double current, double resistance){return current * resistance;};
+auto ohms_law_resistance = [](double voltage, double current){return voltage / current;};
+```
