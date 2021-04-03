@@ -106,3 +106,41 @@ auto ohms_law_current = [](double voltage, double resistance){return voltage / r
 auto ohms_law_voltage = [](double current, double resistance){return current * resistance;};
 auto ohms_law_resistance = [](double voltage, double current){return voltage / current;};
 ```
+### COMMON LISP
+```common-lisp
+(defun ohms-law-current(voltage resistance)
+  (/ voltage resistance))
+
+(defun ohms-law-voltage(current resistance)
+  (* current resistance))
+
+(defun ohms-law-resistance(voltage current)
+  (/ voltage current))
+```
+### HASKELL
+```haskell
+ohms_law_current :: Double -> Double -> Double
+ohms_law_current voltage resistance = voltage / resistance
+
+ohms_law_voltage :: Double -> Double -> Double
+ohms_law_voltage current resistance = current * resistance
+
+ohms_law_resistance :: Double -> Double -> Double
+ohms_law_resistance voltage current = voltage / current
+```
+### JAVASCRIPT
+```javascript
+const ohms_law_current = (voltage, resistance) => voltage / resistance;
+      
+const ohms_law_voltage = (current, resistance) => current * resistance;
+      
+const ohms_law_resistance = (voltage, current) => voltage / current;
+```
+### PYTHON
+```python
+ohms_law_current = lambda voltage, resistance: voltage / resistance;
+
+ohms_law_voltage = lambda current, resistance: current * resistance;
+
+ohms_law_resistance = lambda voltage, current: voltage / current;
+```
