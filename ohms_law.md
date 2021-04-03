@@ -3,9 +3,14 @@
 ## Formula
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;I&space;=&space;\frac{V}{R})
 
+![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;V&space;=&space;IR)
+
+![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;R&space;=&space;\frac{V}{I})
 ## LaTeX
 ```
 \[I = \frac{V}{R}\]
+\[V = IR\]
+\[R = \frac{V}{I}\]
 ```
 
 ## Variables
