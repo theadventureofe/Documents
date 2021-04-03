@@ -83,27 +83,22 @@ Notice that a significant increase to the speed of a part led to a much more mod
 
 <tbody>
 <tr>
-<td><https://en.wikipedia.org/wiki/Amdahl%27s_law></td>
+<td>https://en.wikipedia.org/wiki/Amdahl%27s_law</td>
 <td>Wikipedia</td>
 </tr>
 
 <tr>
-<td><https://www.vcalc.com/wiki/vCalc/Amdahl%27s+Law></td>
+<td>https://www.vcalc.com/wiki/vCalc/Amdahl%27s+Law</td>
 <td>Calculator</td>
 </tr>
 
 <tr>
-<td><https://www.fxsolver.com/solve/></td>
+<td>https://www.fxsolver.com/solve/</td>
 <td>Calculator</td>
 </tr>
 
 <tr>
-<td><https://www.fxsolver.com/solve/></td>
-<td>Calculator</td>
-</tr>
-
-<tr>
-<td><https://www.techopedia.com/definition/17035/amdahls-law></td>
+<td>https://www.techopedia.com/definition/17035/amdahls-law</td>
 <td>Techopedia</td>
 </tr>
 
