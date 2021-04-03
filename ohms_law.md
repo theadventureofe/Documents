@@ -76,6 +76,8 @@ Current Measured in the circuit is found to be 3 mA or milliamperes (I = 0.003).
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;600&space;\times&space;0.003&space;=&space;1.8V)
 
 ## EXAMPLE 2 LaTeX
+```
 \[V = IR\]
 \[V = 600 \times 0.003\]
 \[600 \times 0.003 = 1.8V\]
+```
