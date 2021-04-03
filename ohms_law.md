@@ -144,3 +144,11 @@ ohms_law_voltage = lambda current, resistance: current * resistance;
 
 ohms_law_resistance = lambda voltage, current: voltage / current;
 ```
+### TYPESCRIPT
+```typescript
+const ohms_law_current = (voltage: number, resistance: number): number => voltage / resistance;
+      
+const ohms_law_voltage = (current: number, resistance: number): number => current * resistance;
+      
+const ohms_law_resistance = (voltage: number, current: number): number => voltage / current;
+```
