@@ -106,12 +106,6 @@ Notice that a significant increase to the speed of a part led to a much more mod
 </tbody>
 </table>
 
-
-### TECHOPEDIA
-
-<https://www.techopedia.com/definition/17035/amdahls-law>
-
-
 ## PROGRAMMING LANGUAGES
 
 ### C
