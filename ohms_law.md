@@ -152,3 +152,4 @@ const ohms_law_voltage = (current: number, resistance: number): number => curren
       
 const ohms_law_resistance = (voltage: number, current: number): number => voltage / current;
 ```
+## LINKS
