@@ -1,6 +1,6 @@
-# Ohm's Law
+# OHM'S LAW
 
-## Formula
+## FORMULA
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;I&space;=&space;\frac{V}{R})
 
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;V&space;=&space;IR)
@@ -13,7 +13,7 @@
 \[R = \frac{V}{I}\]
 ```
 
-## Variables
+## VARIABLES
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 <thead>
@@ -43,3 +43,15 @@
 </tr>
 </tbody>
 </table>
+
+## EXAMPLE
+A circuit has a 12 volt battery (V = 12) and a resistor of 600 ohms (R = 600)
+
+![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;I&space;=&space;\frac{V}{R})
+
+![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;I&space;=&space;\frac{12}{600})
+
+![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;\frac{12}{600}&space;=&space;0.02&space;Amperes)
+
+## EXAMPLE LaTeX
+\[I = \frac{V}{R}\]

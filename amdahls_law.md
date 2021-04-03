@@ -1,6 +1,6 @@
-# Amdahl's Law
+# AMDAHL'S LAW
 
-## Formula
+## FORMULA
 
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;S_{latency(s)>}&space;=&space;\frac{1}{1&space;-&space;p&space;&plus;&space;\frac{p}{s}})
 
@@ -8,7 +8,7 @@
 ```
 \[S_{latency(s)} = \frac{1}{1 - p + \frac{p}{s}}\]
 ```
-## Variables
+## VARIABLES
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 <thead>
@@ -38,12 +38,12 @@
 </tbody>
 </table>
 
-## Notes
+## NOTES
 
 A formula to work out the theoretical speedup of an entire task by improving only a part of the code or system.
 This law states that the overall performance improvement gained by optimising a single part of a system is limited by the fraction of time that the improved part is actually used.
 
-## Example
+## EXAMPLE
 
 A system part initially consumes 60% of execution time (p = 0.6). The part is sped up by a factor of 3 (s = 3)
 
@@ -57,7 +57,7 @@ or
 
 Notice that a significant increase to the speed of a part led to a much more modest increase in overall system performance.
 
-## Example LaTeX
+## EXAMPLE LaTeX
 
 ```
 \[speedup = \frac{1}{1 - p + \frac{p}{s}}\]
@@ -71,23 +71,23 @@ Notice that a significant increase to the speed of a part led to a much more mod
 \[speedup = \frac{1}{1 - 0.6 + \frac{0.6}{3}} = 1.66666666667\]
 ```
 
-## Links
+## LINKS
 
-### Wikipedia
+### WIKIPEDIA
 
 <https://en.wikipedia.org/wiki/Amdahl%27s_law>
 
-### Calculators
+### CALCULATORS
 
 <https://www.vcalc.com/wiki/vCalc/Amdahl%27s+Law>
 <https://www.fxsolver.com/solve/>
 
-### Techopedia
+### TECHOPEDIA
 
 <https://www.techopedia.com/definition/17035/amdahls-law>
 
 
-## Programming Functions
+## PROGRAMMING LANGUAGES
 
 ### C
 ```C
@@ -105,7 +105,7 @@ Notice that a significant increase to the speed of a part led to a much more mod
     
     auto amdahls_law_percentage = [](double p, double s){return 1 / (1 - (p/100) + (p/100)/s);};
 ```
-### Clojure
+### CLOJURE
 ```clojure
     (defn amdahls_law_ratio [p s]
       (/ 1.0 (+  1.0 (- p) (/ p s))))
@@ -113,7 +113,7 @@ Notice that a significant increase to the speed of a part led to a much more mod
     (defn amdahls_law_percentage [p s]
       (/ 1.0 (+  1.0 (- (/ p 100.0)) (/ (/ p 100.0) s))))
 ```
-### Common Lisp
+### COMMON LISP
 ```common-lisp
     (defun amdahls-law-ratio(p s)
       (/ 1.0 (+ 1.0 (- p)(/ p s))))
@@ -121,7 +121,7 @@ Notice that a significant increase to the speed of a part led to a much more mod
     (defun amdahls-law-percentage(p s)
       (/ 1.0 ( + 1.0 (- (/ p 100.0)) (/ (/ p 100.0) s))))
 ```
-### Haskell
+### HASKELL
 ```haskell
     amdahls_law_ratio :: Double -> Double -> Double
     amdahls_law_ratio p s = 1 / (1 - p + p/s) 
@@ -129,34 +129,34 @@ Notice that a significant increase to the speed of a part led to a much more mod
     amdahls_law_percentage :: Double -> Double -> Double
     amdahls_law_percentage p s = 1 / (1 - (p/100) + (p/100) / s)
 ```
-### Javascript
+### JAVASCRIPT
 ```javascript
     const amdahls_law_ratio = (p, s) => 1 / (1 - p + p/s);
     
     const amdahls_law_percentage = (p, s) => 1 / (1 - (p/100) + (p/100) / s);
 ```
-### Python
+### PYTHON
 ```python
     amdahls_law_ratio = lambda p, s : 1 / (1 - p + p / s)
     
     amdahls_law_percentage = lambda p, s : 1 / (1 - (p/100) + (p/100) / s)
 ```
 
-### Typescript
+### TYPESCRIPT
 ```typescript
     const amdahls_law_ratio = (p: number, s: number): number => 1 / (1 - p + p/s);
     
     const amdahls_law_percentage = (p: number, s: number): number => 1 / (1 - (p/100) + (p/100) / s);
 ```
-## Graphs
+## GRAPHS
 
 ![](https://user-images.githubusercontent.com/80133802/113050057-56ac7300-919c-11eb-98a9-968f08788b4d.png)
 
 ![](https://user-images.githubusercontent.com/80133802/113052863-8d37bd00-919f-11eb-8fed-d5fe098088e0.png)
 
-### Graph Code
+### GRAPH CODE
 
-#### Python
+#### PYTHON
 
 ```python
 import numpy as np
@@ -203,7 +203,7 @@ plt.grid(color='black', linestyle='-', linewidth=0.5)
 plt.legend()
 plt.show()
 ```
-## Trivia
+## TRIVIA
 
 Sometimes called Amdahl's argument.
 
