@@ -104,7 +104,7 @@ Current Measured in the circuit is found to be 3 mA or milliamperes (I = 0.003).
 </tr>
 
 <tr>
-<td><https://www.calculator.net/ohms-law-calculator.html/td>
+<td><https://www.calculator.net/ohms-law-calculator.html</td>
 <td>Calculator</td>
 </tr>
 
