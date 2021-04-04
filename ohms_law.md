@@ -62,6 +62,8 @@ or
 
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;20&space;milliAmperes)
 
+![12v_ohms](https://user-images.githubusercontent.com/80133802/113512022-b15a1c00-955a-11eb-96b0-d8a695f38f1a.png)
+
 ## EXAMPLE 1 LaTeX
 ```
 \[I = \frac{V}{R}\]
@@ -69,6 +71,10 @@ or
 \[\frac{12}{600} = 0.02 Amperes\]
 \[20milliAmperes\]
 ```
+
+## EXAMPLE 1 FALSTAD
+
+https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgA3EFBQ73-nzDEUUMTSphRVGdARsATiGwJRPPitHDpyOGwDug8COWrjo7AaPrTagZDZA
 
 ## EXAMPLE 2
 A circuit has a battery and a resistor of 600 ohms (R = 600).
@@ -80,12 +86,17 @@ Current Measured in the circuit is found to be 3 mA or milliamperes (I = 0.003).
 
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;600&space;\times&space;0.003&space;=&space;1.8V)
 
+![1point8v_ohms](https://user-images.githubusercontent.com/80133802/113512021-af905880-955a-11eb-93d3-a55a9663f917.png)
+
 ## EXAMPLE 2 LaTeX
 ```
 \[V = IR\]
 \[V = 600 \times 0.003\]
 \[600 \times 0.003 = 1.8V\]
 ```
+## EXAMPLE 2 FALSTAD
+https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgA3EFBQ73-nzDEUUMTSphoeMVRgI2AJxDYEonn1WjhoyfDYB3QeBEq1J0dkPGNZ9QMhsgA
+
 ## LINKS
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
