@@ -190,8 +190,7 @@ const ohms_law_resistance = (voltage: number, current: number): number => voltag
 ## GRAPH
 As you can imagine, the graph shows Ohms law is directly proportional
 
-![ohms_law](https://user-images.githubusercontent.com/80133802/113496158-b1bccd80-94ee-11eb-82f4-c8323df6d285.png)
-
+![Screenshot from 2021-04-04 02-42-00](https://user-images.githubusercontent.com/80133802/113496232-838bbd80-94ef-11eb-9d0c-8870c70ade8a.png)
 ## GRAPH CODE
 ```python
 import numpy as np
