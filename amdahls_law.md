@@ -102,7 +102,6 @@ Notice that a significant increase to the speed of a part led to a much more mod
 <td>Techopedia</td>
 </tr>
 
-
 </tbody>
 </table>
 
@@ -192,7 +191,7 @@ plot_factor(my_range, 2)
 plot_factor(my_range, 3)
 plot_factor(my_range, 4)
 
-plt.title(r'Amdahls Law')
+plt.title('Amdahls Law')
 plt.xlabel('(SLatency): Total Improvement of system')
 plt.ylabel('(P): % of time the part previously occupied')
 plt.grid(color='black', linestyle='-', linewidth=0.5)
@@ -215,7 +214,7 @@ plot_percentage(25, my_range)
 plot_percentage(50, my_range)
 plot_percentage(75, my_range)
 
-plt.title(r'Amdahls Law')
+plt.title('Amdahls Law')
 plt.xlabel('(s): Part sped up by a factor of')
 plt.ylabel('(SLatency): Total Improvement of system')
 plt.grid(color='black', linestyle='-', linewidth=0.5)

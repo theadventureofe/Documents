@@ -173,11 +173,11 @@ const ohms_law_resistance = (voltage, current) => voltage / current;
 ```
 ### PYTHON
 ```python
-ohms_law_current = lambda voltage, resistance: voltage / resistance;
+ohms_law_current = lambda voltage, resistance: voltage / resistance
 
-ohms_law_voltage = lambda current, resistance: current * resistance;
+ohms_law_voltage = lambda current, resistance: current * resistance
 
-ohms_law_resistance = lambda voltage, current: voltage / current;
+ohms_law_resistance = lambda voltage, current: voltage / current
 ```
 ### TYPESCRIPT
 ```typescript
@@ -187,6 +187,33 @@ const ohms_law_voltage = (current: number, resistance: number): number => curren
       
 const ohms_law_resistance = (voltage: number, current: number): number => voltage / current;
 ```
+## GRAPH
+As you can imagine, the graph shows Ohms law is directly proportional
+
+![ohms_law](https://user-images.githubusercontent.com/80133802/113496158-b1bccd80-94ee-11eb-82f4-c8323df6d285.png)
+
+## GRAPH CODE
+```python
+import numpy as np
+import csv
+import matplotlib.pyplot as plt
+
+voltage_range = np.linspace(0,12,100)
+
+ohms_law_resistance = lambda voltage, current: voltage / current
+
+plot_ohms = lambda voltage, current: plt.plot(ohms_law_resistance(voltage, current), voltage_range, label = str(current) + " ohms")
+
+plot_ohms(voltage_range, 1000)
+
+plt.title('Ohms Law')
+plt.xlabel('Resistance (ohms)')
+plt.ylabel('voltage (volts)')
+plt.grid(color='black', linestyle='-', linewidth=0.5)
+plt.legend()
+plt.show()
+```
+
 
 ## TRIVIA
 Named after Georg Ohm.
