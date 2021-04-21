@@ -2,7 +2,7 @@
 
 ## Example
 
-![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;\begin{align*}&space;&\text{&space;}\text{&space;}\text{&space;}quotient\\&space;divisor&space;&\overline{\big)dividend}\\&space;\end{align*})
+![]("https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;\begin{align*}&space;&\text{&space;}\text{&space;}\text{&space;}quotient\\&space;divisor&space;&\overline{\big)dividend}\\&space;\end{align*}")
 
 ![](https://latex.codecogs.com/gif.latex?\bg_black&space;\LARGE&space;\begin{align*}&space;6&space;&\overline{\big)510}\\&space;\end{align*})
 
