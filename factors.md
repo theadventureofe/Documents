@@ -23,6 +23,8 @@ all factors are found. We will use the number 24 as an example.
 ![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%201%2C%202%2C%203%2C%204%2C%206%2C%208%2C%2012%2C%2024)
  
 ## PROGRAMMING LANGUAGES
+
+### C
 ``` c
 void find_factors(int value){
   for(int i = 1; i <= value/2; i++){
