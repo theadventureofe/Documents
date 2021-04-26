@@ -1,6 +1,6 @@
 # FACTORS
 
-## Algorithm to find all factors
+## AlGORITHM FOR FINDING ALL FACTORS
 A simple algorithm can be used to find all factors of a number. This guarantees
 all factors are found. We will use the number 24 as an example. 
 
@@ -21,3 +21,15 @@ all factors are found. We will use the number 24 as an example.
 5. All factors are now listed.
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%201%2C%202%2C%203%2C%204%2C%206%2C%208%2C%2012%2C%2024)
+ 
+## PROGRAMMING LANGUAGES
+``` c
+void find_factors(int value){
+  for(int i = 1; i <= value/2; i++){
+    if(value % i == 0){
+      printf("%d,", i);
+    }
+  }
+  printf("%d \n", value);
+}
+```
