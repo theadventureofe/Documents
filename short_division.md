@@ -24,7 +24,7 @@ We will use this as the example
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%20%5Cbegin%7Balign*%7D%20%26%5Ctext%7B%20%7D%5Ctext%7B%20%7D%5Ctext%7B%20%7D085%5C%5C%206%20%26%5Coverline%7B%5Cbig%29510%7D%5C%5C%20%5Cend%7Balign*%7D)
 
-# Example Latex
+## Example Latex
 ```
 \begin{align*}
 &\text{ }\text{ }\text{ }quotient\\
