@@ -28,13 +28,13 @@ all factors are found. We will use the number 24 as an example.
 
 ### C
 ``` c
-void find_factors(int value){
-  for(int i = 1; i <= value/2; i++){
-    if(value % i == 0){
+void find_factors(int n){
+  for(int i = 1; i <= n/2; i++){
+    if(n % i == 0){
       printf("%d,", i);
     }
   }
-  printf("%d \n", value);
+  printf("%d \n", n);
 }
 ```
 ## PRIME FACTORS
@@ -60,10 +60,38 @@ we will use the number 420 as an example.
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%2010%20%3D%205%20%5Ctimes%202)
 
-3. repeat step 2 on remaining non-prime numbers until no non-prime remain
+3. repeat step 2 on remaining non-prime numbers until only prime numbers remain
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%206%20%3D%202%20%5Ctimes%203)
 
 4. order the primes, writing as powers for any repeating primes
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%20420%20%3D%202%5E2%20%5Ctimes%203%20%5Ctimes%205%20%5Ctimes%207)
+
+## PROGRAMMING LANGUAGES
+
+### C
+
+``` c
+void find_prime_factors(int n){
+
+  while(n % 2 == 0){
+    printf("2, ");
+    n = n/2;
+  }
+  
+  for(int i = 3; i < sqrt(n); i = i+2){
+
+    while(n%i == 0){
+      printf("%d, ", i);
+      n = n/i;
+    }
+  }
+  
+  if(n > 2){
+    printf("%d, ", n);
+  }
+
+    printf("\n");
+}
+```
