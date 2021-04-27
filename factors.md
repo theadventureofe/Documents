@@ -37,6 +37,24 @@ void find_factors(int n){
   printf("%d \n", n);
 }
 ```
+
+### C++
+
+``` c++
+std::vector<int> find_factors(int n){
+  std::vector<int> result;
+
+  for(int i = 1; i <= n/2; i++){
+    if(n % i == 0){
+      result.push_back(i);
+    }
+  }
+  
+  result.push_back(n);
+  return result;
+}
+```
+
 ## PRIME FACTORS
 prime numbers are number that do not divide by anything other than itself and 1.
 (it's only factors are itself an 1).
@@ -81,7 +99,6 @@ void find_prime_factors(int n){
   }
   
   for(int i = 3; i < sqrt(n); i = i+2){
-
     while(n%i == 0){
       printf("%d, ", i);
       n = n/i;
