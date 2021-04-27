@@ -1,5 +1,7 @@
 # FACTORS
 
+## DEFINITION
+
 ## AlGORITHM FOR FINDING ALL FACTORS
 A simple algorithm can be used to find all factors of a number. This guarantees
 all factors are found. We will use the number 24 as an example. 
@@ -35,3 +37,33 @@ void find_factors(int value){
   printf("%d \n", value);
 }
 ```
+## PRIME FACTORS
+prime numbers are number that do not divide by anything other than itself and 1.
+(it's only factors are itself an 1).
+1 is not a prime number.
+
+Any number can be broken down into a string of prime factors. 
+this is called **prime factor decomposition** or **prime factorisation**
+
+
+## ALGORITHM FOR FINDING PRIME FACTORS
+
+we will use the number 420 as an example.
+
+1. split the number into 2 factors
+
+![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%20420%20%3D%2042%20%5Ctimes%2010)
+
+2. if any number is not prime, split the results again
+
+![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%2042%20%3D%207%20%5Ctimes%206)
+
+![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%2010%20%3D%205%20%5Ctimes%202)
+
+3. repeat step 2 on remaining non-prime numbers until no non-prime remain
+
+![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%206%20%3D%202%20%5Ctimes%203)
+
+4. order the primes, writing as powers for any repeating primes
+
+![](https://latex.codecogs.com/gif.latex?%5Cbg_black%20%5CLARGE%20420%20%3D%202%5E2%20%5Ctimes%203%20%5Ctimes%205%20%5Ctimes%207)
