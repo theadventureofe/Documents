@@ -3,6 +3,7 @@ To avoid using an array of arrays
 (or a vector of vectors, or a pointer to an array of pointers)
 
 You can use a 1d array as if it were a 2d array.
+This creates a single, contiguous block of memory which is much less taxing computationally. This allows us to properly affect subsets of the array.
 
 ## PROGRAMMING LANGUAGES
 
@@ -22,10 +23,7 @@ int main(int argc, char** argv){
 #define ROWS 4
 #define COLS 5
   
-  int arr[ROWS * COLS] = {0, 1, 2, 3, 4,
-    10, 11, 12, 13, 14,
-    20, 21, 22, 23, 24,
-    30, 31, 32, 33, 34};
+  int arr[ROWS * COLS] = {0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34};
   
   arr_print(arr, ROWS, COLS, COLS);
   arr_print(arr, 3, 3, COLS);
