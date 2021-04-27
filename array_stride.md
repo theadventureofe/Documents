@@ -9,6 +9,9 @@ This creates a single, contiguous block of memory which is much less taxing comp
 
 ### C
 ```c
+#include <stdlib.h>
+#include <stdio.h>
+
 void arr_print(int* arr, int rows, int cols, int stride){
   for(size_t i = 0; i < rows; i++){
     for(size_t j = 0; j < cols; j++){
