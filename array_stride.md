@@ -1,12 +1,7 @@
 ## STRIDING AN ARRAY
-To avoid using an array of arrays
-(or a vector of vectors, or a pointer to an array of pointers)
-
-You can use a 1d array as if it were a 2d array.
+To avoid allocating an array of arrays (or a vector of vectors, or a pointer to an array of pointers) on the heap, we can use a 1d array as if it was a 2d array.
 
 This creates a single, contiguous block of memory which is much less taxing computationally. This allows us to properly affect subsets of the array.
-
-This is especially useful when allocating memory to the heap.
 
 ## PROGRAMMING LANGUAGES
 
@@ -15,10 +10,14 @@ This is especially useful when allocating memory to the heap.
 #include <stdlib.h>
 #include <stdio.h>
 
+void arr_print_coord(int* arr, int x, int y, int stride){
+  printf("%d, ", arr[x * stride + y]);
+}
+
 void arr_print(int* arr, int rows, int cols, int stride){
   for(size_t i = 0; i < rows; i++){
     for(size_t j = 0; j < cols; j++){
-      printf("%d, ", arr[i * stride + j]);
+      arr_print_coord(arr, i, j, stride);
     }
     printf("\n");
   }
