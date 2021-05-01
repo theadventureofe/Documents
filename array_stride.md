@@ -3,7 +3,10 @@ To avoid using an array of arrays
 (or a vector of vectors, or a pointer to an array of pointers)
 
 You can use a 1d array as if it were a 2d array.
+
 This creates a single, contiguous block of memory which is much less taxing computationally. This allows us to properly affect subsets of the array.
+
+This is especially useful when allocating memory to the heap.
 
 ## PROGRAMMING LANGUAGES
 
@@ -25,12 +28,21 @@ void arr_print(int* arr, int rows, int cols, int stride){
 int main(int argc, char** argv){
 #define ROWS 4
 #define COLS 5
-  
-  int arr[ROWS * COLS] = {0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34};
-  
+
+  //allocate an array on the heap
+  int* arr = (int*) malloc(sizeof(int) * ROWS * COLS);
+
+  //fill the array with increasing numbers from 0
+  for(int i = 0; i < ROWS * COLS; i++){
+    arr[i] = i;
+  }
+
+  //print whole array
   arr_print(arr, ROWS, COLS, COLS);
+
+  //print subset of the array
   arr_print(arr, 3, 3, COLS);
-  
+
   return EXIT_SUCCESS;
 }
 ```
