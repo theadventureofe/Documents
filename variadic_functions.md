@@ -16,7 +16,7 @@ A variadic function accepts a variable number of arguments.
 
 <tbody>
 <tr>
-<td><https://en.wikipedia.org/wiki/Variadic_function</td>
+<td>https://en.wikipedia.org/wiki/Variadic_function</td>
 <td>Wikipedia</td>
 </tr>
 
