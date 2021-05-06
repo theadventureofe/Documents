@@ -7,22 +7,15 @@ to iterating in a loop
 
 ### C++ - RANGE
 ``` c++
+#include <algorithm>
 #include <iostream>
 #include <vector>
-#include <numeric>
 
-std::vector<int> range(int n){
-  std::vector<int> result;
-  for(int i = 0; i < n; i++){
-    result.push_back(i);
-  }
-  return result;
-}
-
-int main(int argc, char** argv){
-  for(int x : range(10)) std::cout << x << ", ";
-  std::cout << "\n";
-  return 0;
+int main(){
+    std::vector<int> my_range;
+    std::generate_n(std::back_inserter(my_range), 10, [n = 0] () mutable { return n++; });
+    for(int i : my_range){std::cout << i << ", ";};
+    std::cout << "\n";
 }
 ```
 
@@ -30,7 +23,7 @@ int main(int argc, char** argv){
 ``` java
 class Functional {
     public static void main(String[] args) {
-        IntStream.range(1, 10).forEach(System.out::print);
+        IntStream.range(0, 10).forEach(System.out::print);
         System.out.println(); 
     }
 }
@@ -38,5 +31,26 @@ class Functional {
 #### PYTHON - RANGE
 ``` python
 for i in range(10):
-    print(i);
+    print(i, end = ", ");
+
+print()
+```
+
+#### JAVASCRIPT - RANGE
+``` javascript
+function* range(start, stop, step = 1) {
+    if (stop == null) {
+        // one param defined
+        stop = start;
+        start = 0;
+    }
+
+    for (let i = start; step > 0 ? i < stop : i > stop; i += step) {
+        yield i;
+    }
+}
+
+for (let i of range(10)) {
+    console.log(i);
+}
 ```
