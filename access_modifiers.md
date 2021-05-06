@@ -1,0 +1,28 @@
+# ACCESS MODIFIERS
+
+Access modifiers are important for OOP (object oriented programming).
+
+They control the visibility of data members and methods. 
+
+Preventing data access from certain areas of your program can help the developer
+write better, more organised code.
+
+## PUBLIC
+Public does NOT restrict data access from outside of the class.
+
+Java, if no access modifier is given, it will implicitly default to public access.
+in C++, if no access modifier is given, STRUCTS will implicity default to public access.
+
+## PRIVATE
+Private provides total restriction to data access from outside of the class scope.
+
+in C++, if no access modifier is given, CLASSES will implicitly default to private access.
+
+Subclasses CANNOT access private variables of the Superclass.
+
+## PROTECTED
+The protected access modifier also allows data access via the use of subclasses.
+
+In Java, the protected access modifier restricts data access from outside of the
+package (not the class).
+

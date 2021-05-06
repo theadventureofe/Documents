@@ -26,7 +26,6 @@ A variadic function accepts a variable number of arguments.
 ## PROGRAMMING LANGUAGES
 
 ### C
-
 ```c
 #include <stdarg.h>
 #include <stdlib.h>
