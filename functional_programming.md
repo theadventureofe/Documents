@@ -54,3 +54,8 @@ for (let i of range(10)) {
     console.log(i);
 }
 ```
+#### HASKELL - RANGE
+``` haskell
+my_range = [0..9]
+main = print (my_range)
+```
