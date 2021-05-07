@@ -28,6 +28,7 @@ class Functional {
     }
 }
 ```
+
 #### PYTHON - RANGE
 ``` python
 for i in range(10):
@@ -54,8 +55,18 @@ for (let i of range(10)) {
     console.log(i);
 }
 ```
+
 #### HASKELL - RANGE
 ``` haskell
 my_range = [0..9]
 main = print (my_range)
+```
+
+#### COMMON LISP - RANGE
+``` lisp
+(defun range (max &key (min 0) (step 1))
+   (loop for n from min below max by step
+         collect n))
+
+(print (range 10))
 ```
