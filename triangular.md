@@ -38,3 +38,25 @@ int is_triangular(int n){
   return 0;
 }
 ```
+
+### Javascript
+
+``` js
+const get_triangular = n => n * (n + 1 ) / 2; 
+
+const is_triangular = n => {
+
+  if(n == 0 || n == 1) return true;
+  
+  let sum = 0;
+
+  for(let i = 0; i < n; i++){
+    sum += i;
+
+    if(sum == n){
+      return true;
+    }
+  }
+  return false;
+}
+```
