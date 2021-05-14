@@ -1,7 +1,132 @@
+cd haskell/ 
+ls
+cd ../
+ls
+cd haskell/ 
+ls
+ls
+cd ..
+ls
+cd mess/ 
+ls
+cd haskell/ 
+ls
+mv mess.hs ../../haskell/ 
+ls
+cd ..
+ls
+rmdir haskell/ 
+mv jabba/ ../
+mv lisp/  ../
+mv py/ ../
+ls
+mv sharp/ ../
+mv ts/ ../
+ls
+cd ..
+ls
+rmdir mess/ 
+ls
+cd lisp/ 
+ls
+cd ../
+ls
+cd common_lisp/ 
+ls
+cd ..
+ls
+cd lisp/ 
+ls
+cd ..
+ls
+cd common_lisp/ 
+ls
+mv ranges.lisp ../lisp/ 
+ls
+cd ..
+ls
+rmdir common_lisp/ 
+ls
+mv haskell/ hask
+ls
+cd c
+ls
+cd game/ 
+ls
+cd ..
+ls
+cd mess/ 
+ls
+rm a.out 
+ls
+cd ..
+ls
+cd ..
+ls
+cd cpp/ 
+ls
+cd game/ 
+ls
+rm a.out 
+ls
+cd ..
+ls
+cd ..
+ls
+git add -u
+git commit -m "sorted"
+git push
+ls
+cd c/ 
+ls
+cd game/ 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd projects/ 
+ls
+git add *
+git commit -m "projects"
+git push
+git push
+ls
+ls
+cd ..
+ls
+cd projects/ 
+ls
+cd ..
+ls
+cd projects/ 
+ls
+cd non-code/ 
+ls
+cd ..
+ls
+cd ..
+s
+ls
+ls
+git clone https://github.com/theadventureofe/Documents.git
+ls
+cd Documents/ 
+ls
+paru fira code
+ls
+cd .emacs.d/ 
+ls
+rm init.el
+ls
+ls
+cd Documents/ 
+ls
+ls
+git add *
 * AMDAHL'S LAW
 ** FORMULA
 [[images/amdahls_law.svg]]
 
-./images/amdahls_law.svg
-
-[[file:./images/amdahls_law.svg]]
