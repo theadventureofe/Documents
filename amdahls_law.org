@@ -1,3 +1,7 @@
 * AMDAHL'S LAW
 ** FORMULA
-https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20
+[[images/amdahls_law.svg]]
+
+./images/amdahls_law.svg
+
+[[file:./images/amdahls_law.svg]]
