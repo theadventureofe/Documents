@@ -1,0 +1,79 @@
+* OHM'S LAW
+** FORMULA
+** LaTeX
+#+begin_src 
+\[I = \frac{V}{R}\]
+\[V = IR\]
+\[R = \frac{V}{I}\]
+#+end_src
+** VARIABLES
+** NOTES
+A law that states current through a conductor between 2 points is directly proportional to the
+voltage across those 2 points. 
+** PROGRAMMING LANGUAGES
+*** C
+#+begin_src c  
+double ohms_law_current(double voltage, double resistance){
+  return voltage / resistance;
+}
+
+double ohms_law_voltage(double current, double resistance){
+  return current * resistance; 
+}
+
+double ohms_law_resistance(double voltage, double current){
+  return voltage / current;
+}
+#+end_src
+*** C++17
+#+begin_src c++  
+auto ohms_law_current = [](double voltage, double resistance){return voltage / resistance;};
+auto ohms_law_voltage = [](double current, double resistance){return current * resistance;};
+auto ohms_law_resistance = [](double voltage, double current){return voltage / current;};
+#+end_src
+*** COMMON LISP
+#+begin_src lisp  
+(defun ohms-law-current(voltage resistance)
+  (/ voltage resistance))
+
+(defun ohms-law-voltage(current resistance)
+  (* current resistance))
+
+(defun ohms-law-resistance(voltage current)
+  (/ voltage current))
+#+end_src
+*** HASKELL
+#+begin_src haskell  
+ohms_law_current :: Double -> Double -> Double
+ohms_law_current voltage resistance = voltage / resistance
+
+ohms_law_voltage :: Double -> Double -> Double
+ohms_law_voltage current resistance = current * resistance
+
+ohms_law_resistance :: Double -> Double -> Double
+ohms_law_resistance voltage current = voltage / current
+#+end_src
+*** JAVASCRIPT
+#+begin_src javascript  
+const ohms_law_current = (voltage, resistance) => voltage / resistance;
+      
+const ohms_law_voltage = (current, resistance) => current * resistance;
+      
+const ohms_law_resistance = (voltage, current) => voltage / current;
+#+end_src
+*** PYTHON
+#+begin_src python  
+ohms_law_current = lambda voltage, resistance: voltage / resistance
+
+ohms_law_voltage = lambda current, resistance: current * resistance
+
+ohms_law_resistance = lambda voltage, current: voltage / current
+#+end_src
+*** TYPESCRIPT
+#+begin_src typescript  
+const ohms_law_current = (voltage: number, resistance: number): number => voltage / resistance;
+      
+const ohms_law_voltage = (current: number, resistance: number): number => current * resistance;
+      
+const ohms_law_resistance = (voltage: number, current: number): number => voltage / current;
+#+end_src

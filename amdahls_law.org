@@ -6,7 +6,10 @@
 \[S_{latency(s)} = \frac{1}{1 - p + \frac{p}{s}}\]
 #+end_src
 ** VARIABLES
-TODO
+| Variable Name                    | Variable Description                                               |
+| [[images/amdahls_law/s_latency.svg]] | Overall, theoretical speedup of the entire task by the improvement |
+|                                  |                                                                    |
+
 ** NOTES
 A formula to work out the theoretical speedup of an entire task by improving only a part of the code or system.
 This law states that the overall performance improvement gained by optimising a single part of a system is limited by the fraction of time that the improved part is actually used.

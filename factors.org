@@ -1,0 +1,89 @@
+* Factors
+** ALGORITHM TO FIND ALL FACTORS
+A simple algorithm can be used to find all factors of a number. This guarantees
+all factors are found. We will use the number 24 as an example. 
+
+1. start with 1
+
+
+2. try each each other integer in order
+
+3. remove any any numbers that do not divide exactly (like 5 in this example). 
+
+4. Stop when you reach repeating numbers. (like "4×6" and "6×4" in this example)
+
+5. All factors are now listed.
+
+TODO insert latex
+** PROGRAMMMING LANGUAGES
+*** C
+#+begin_src c  
+void find_factors(int n){
+  for(int i = 1; i <= n/2; i++){
+    if(n % i == 0){
+      printf("%d,", i);
+    }
+  }
+  printf("%d \n", n);
+}
+#+end_src
+*** C++
+#+begin_src c++
+std::vector<int> find_factors(int n){
+  std::vector<int> result;
+
+  for(int i = 1; i <= n/2; i++){
+    if(n % i == 0){
+      result.push_back(i);
+    }
+  }
+  
+  result.push_back(n);
+  return result;
+}
+#+end_src
+
+* Prime Factors
+prime numbers are number that do not divide by anything other than itself and 1.
+(it's only factors are itself an 1).
+1 is not a prime number.
+
+Any number can be broken down into a string of prime factors. 
+this is called **prime factor decomposition** or **prime factorisation**
+** ALGORITHM TO FIND ALL PRIME FACTORS
+we will use the number 420 as an example.
+
+1. split the number into 2 factors
+
+
+2. if any number is not prime, split the results again
+
+3. repeat step 2 on remaining non-prime numbers until only prime numbers remain
+
+
+4. order the primes, writing as powers for any repeating primes
+
+** PROGRAMMING LANGUAGES
+*** C
+#+begin_src c  
+void find_prime_factors(int n){
+
+  while(n % 2 == 0){
+    printf("2, ");
+    n = n/2;
+  }
+  
+  for(int i = 3; i < sqrt(n); i = i+2){
+    while(n%i == 0){
+      printf("%d, ", i);
+      n = n/i;
+    }
+  }
+  
+  if(n > 2){
+    printf("%d, ", n);
+  }
+
+    printf("\n");
+}
+#+end_src
