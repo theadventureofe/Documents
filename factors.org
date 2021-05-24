@@ -1,4 +1,4 @@
-* Factors
+* FACTORS
 ** ALGORITHM TO FIND ALL FACTORS
 A simple algorithm can be used to find all factors of a number. This guarantees
 all factors are found. We will use the number 24 as an example. 
@@ -43,7 +43,7 @@ std::vector<int> find_factors(int n){
 }
 #+end_src
 
-* Prime Factors
+* PRIME FACTORS
 prime numbers are number that do not divide by anything other than itself and 1.
 (it's only factors are itself an 1).
 1 is not a prime number.
@@ -131,7 +131,6 @@ int main(int argc, char** argv){
   return EXIT_SUCCESS;
 }
 #+end_src
-
 *** C++
 #+begin_src c   
 #include <iostream>
@@ -170,4 +169,24 @@ int main(int argc, char** argv){
   std::cout << "\n"; 
   return 0;
 }
+#+end_src
+
+*** PYTHON
+#+begin_src python
+ def get_prime_factors(n):
+    prime_factors = []
+
+    while n % 2 == 0:
+        prime_factors.append(2)
+        n = int(n / 2)
+
+    if n > 2:
+        prime_factors.append(n)
+
+    return prime_factors
+
+prime_factors = get_prime_factors(56)
+
+for i in prime_factors:
+    print(i)
 #+end_src
