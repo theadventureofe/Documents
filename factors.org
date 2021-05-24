@@ -5,14 +5,21 @@ all factors are found. We will use the number 24 as an example.
 
 1. start with 1
 
+[[images/factors/factor1.svg]]
 
 2. try each each other integer in order
 
+[[images/factors/factor2.svg]]
+
 3. remove any any numbers that do not divide exactly (like 5 in this example). 
+
+[[images/factors/factors3.svg]]
 
 4. Stop when you reach repeating numbers. (like "4×6" and "6×4" in this example)
 
 5. All factors are now listed.
+
+[[images/factors/factor4.svg]]
 
 TODO insert latex
 ** PROGRAMMMING LANGUAGES
