@@ -13,7 +13,7 @@ all factors are found. We will use the number 24 as an example.
 
 3. remove any any numbers that do not divide exactly (like 5 in this example). 
 
-[[images/factors/factors3.svg]]
+[[images/factors/factor3.svg]]
 
 4. Stop when you reach repeating numbers. (like "4×6" and "6×4" in this example)
 
@@ -66,7 +66,6 @@ we will use the number 420 as an example.
 2. if any number is not prime, split the results again
 
 3. repeat step 2 on remaining non-prime numbers until only prime numbers remain
-
 
 4. order the primes, writing as powers for any repeating primes
 
