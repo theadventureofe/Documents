@@ -21,9 +21,9 @@ We will use this an the example
 3. Repeat step 2 until end of dividend. Show remainder
 
    
-[[images/short_division/short_division4.gif]]
+[[images/short_division/short_division5.gif]]
 
 4. order each digit for your answer (quotient)
 
    
-[[images/short_division/short_division5.gif]]
+[[images/short_division/short_division6.gif]]
