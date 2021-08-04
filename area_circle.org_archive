@@ -1,0 +1,25 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/frog/files/Documents/area_circle.org
+
+
+* JAVASCRIPT
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-08-05 Thu 00:46
+:ARCHIVE_FILE: ~/files/Documents/area_circle.org
+:ARCHIVE_OLPATH: AREA CIRCLE
+:ARCHIVE_CATEGORY: area_circle
+:END:
+#+begin_src javascript
+  function area_circle(radius){
+  return Math.PI * Math.pow(radius, 2);
+}
+#+end_src
+
+
+or
+
+#+begin_src javascript
+const area_circle = radius => Math.PI * Math.pow(radius, 2);
+#+end_src

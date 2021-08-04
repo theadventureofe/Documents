@@ -4,11 +4,16 @@ Area = πr2
 
 ** C
 #+begin_src c
-#include <math.h>
-
-double area_circle(double radius){
-  return M_PI * pow(radius,2);
-}
+  #include <math.h>
+  
+  double area_circle(double radius){
+    return M_PI * pow(radius,2);
+  }
+#+end_src
+** C++
+#+begin_src c++
+  #include <cmath>
+  auto area_circle = [](auto radius){ return M_PI * pow(radius, 2); };
 #+end_src
 ** CLOJURE
 #+begin_src clojure
@@ -19,9 +24,22 @@ double area_circle(double radius){
   def area_circle(radius):
     return  math.pi * math.pow(radius, 2)
 #+end_src
+
+or
+
+#+begin_src python  
+area_circle = lambda radius: math.pi * math.pow(radius, 2)
+#+end_src
 ** JAVASCRIPT
 #+begin_src javascript
   function area_circle(radius){
   return Math.PI * Math.pow(radius, 2);
 }
+#+end_src
+
+
+or
+
+#+begin_src javascript
+const area_circle = radius => Math.PI * Math.pow(radius, 2);
 #+end_src
