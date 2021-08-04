@@ -1,0 +1,5 @@
+* SHORT DIVISION
+
+** EXAMPLE
+
+[[images/short_division/short_division.gif]]
