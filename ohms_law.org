@@ -1,5 +1,8 @@
 * OHM'S LAW
 ** FORMULA
+[[images/ohms_law/ohms_law.gif]]
+[[images/ohms_law/ohms_law2.gif]]
+[[images/ohms_law/ohms_law3.gif]]
 ** LaTeX
 #+begin_src 
 \[I = \frac{V}{R}\]
@@ -7,9 +10,60 @@
 \[R = \frac{V}{I}\]
 #+end_src
 ** VARIABLES
+[[images/ohms_law/ohms_law4.gif]]
+Current through conductor (Amperes)
+[[images/ohms_law/ohms_law5.gif]]
+Voltage across conductor (Volts)
+[[images/ohms_law/ohms_law6.gif]]
+Resistance of the conductor (Ohms)
 ** NOTES
 A law that states current through a conductor between 2 points is directly proportional to the
-voltage across those 2 points. 
+voltage across those 2 points.
+** EXAMPLE 1
+
+A circuit has a 12 volt battery (V = 12) and a resistor of 600 ohms (R = 600). Find the current.
+
+[[images/ohms_law/ohms_law7.gif]]
+[[images/ohms_law/ohms_law8.gif]]
+[[images/ohms_law/ohms_law9.gif]]
+
+or
+[[images/ohms_law/ohms_law10.gif]]
+
+[[images/ohms_law/ohms_law11.png]]
+
+** EXAMPLE 1 LaTeX
+#+begin_src
+\[I = \frac{V}{R}\]
+\[I = \frac{12}{600i}\]
+\[\frac{12}{600} = 0.02 Amperes\]
+\[20milliAmperes\]
+#+end_src
+
+** EXAMPLE 1 FALSTAD
+
+https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgAncQqmvEFChq1+VHpDYAlbr35gU-PlGU0q85VRgI2AcwEYUIgXkWiobAO4ChRzIaXsgA
+
+** EXAMPLE 2
+
+A circuit has a battery and a resistor of 600 ohms (R = 600). Current Measured in the circuit is found to be 3 mA or milliamperes (I = 0.003). Find the voltage.
+
+[[images/ohms_law/ohms_law12.gif]]
+[[images/ohms_law/ohms_law13.gif]]
+[[images/ohms_law/ohms_law14.gif]]
+[[images/ohms_law/ohms_law15.png]]
+
+** EXAMPLE 2 LaTeX
+#+begin_src
+\[V = IR\]
+\[V = 600 \times 0.003\]
+\[600 \times 0.003 = 1.8V\]
+#+end_src
+
+** EXAMPLE 2 FALSTAD
+
+https://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgAncQqmvEFChq1+VHpDYAlbr35gU-PlGU0qYaKOUwEbAOYCMKEQLyLNEgO4ChxzEaXsgA
+
 ** PROGRAMMING LANGUAGES
 *** C
 #+begin_src c  
