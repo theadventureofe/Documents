@@ -3,3 +3,27 @@
 ** EXAMPLE
 
 [[images/short_division/short_division.gif]]
+
+We will use this an the example
+
+[[images/short_division/short_division2.gif]]
+
+1. Divide the first digit of dividend by divisor
+
+   
+[[images/short_division/short_division3.gif]]
+
+2. Divide next digit of dividend by divisor, including the remainder times 10
+
+   
+[[images/short_division/short_division4.gif]]
+
+3. Repeat step 2 until end of dividend. Show remainder
+
+   
+[[images/short_division/short_division4.gif]]
+
+4. order each digit for your answer (quotient)
+
+   
+[[images/short_division/short_division5.gif]]
