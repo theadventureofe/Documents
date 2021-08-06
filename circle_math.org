@@ -2,7 +2,9 @@
 ** FORMULA
 *** Area
 A = πr²
+*** Circumference
 C = 2πr
+*** Radius
 r = √(A ÷ π)
 
 ** C
