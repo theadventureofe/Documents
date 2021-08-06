@@ -22,6 +22,7 @@ r = √(A ÷ π)
 ** C++
 #+begin_src c++
   #include <cmath>
+  
   auto circle_area = [](auto radius){ return M_PI * pow(radius, 2); };
   
   auto circle_circumference = [](auto radius){return 2 * M_PI * radius; };
