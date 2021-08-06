@@ -1,0 +1,71 @@
+* Circle Mathematics
+** FORMULA
+*** Area
+A = πr²
+C = 2πr
+r = √(A ÷ π)
+
+** C
+#+begin_src c
+  #include <math.h>
+  
+  double circle_area(double radius){
+    return M_PI * pow(radius,2);
+  }
+  
+  double circle_circumference(double radius){
+    return 2 * M_PI * radius;
+  } 
+#+end_src
+** C++
+#+begin_src c++
+  #include <cmath>
+  auto circle_area = [](auto radius){ return M_PI * pow(radius, 2); };
+  
+  auto circle_circumference = [](auto radius){return 2 * M_PI * radius; };
+#+end_src
+** CLOJURE
+#+begin_src clojure
+(defn circle_area [radius] (* Math/PI (Math/pow radius 2)))
+
+(defn circle_circumference [radius] (* 2 Math/PI radius))
+#+end_src
+** PYTHON
+#+begin_src python
+  import math
+  
+  def circle_area(radius):
+    return  math.pi * math.pow(radius, 2)
+  
+  def circle_circumference(radius):
+    return 2 * math.pi * radius
+#+end_src
+
+or
+
+#+begin_src python
+  import math
+  
+  circle_area = lambda radius: math.pi * math.pow(radius, 2)
+  
+  circle_circumference = lambda radius: 2 * math.pi * radius  
+#+end_src
+** JAVASCRIPT
+#+begin_src javascript
+  function circle_area(radius){
+      return Math.PI * Math.pow(radius, 2);
+  }
+  
+  function circle_circumference(radius){
+      return 2 * Math.PI * radius;
+  }
+#+end_src
+
+
+or
+
+#+begin_src javascript
+  const circle_area = radius => Math.PI * Math.pow(radius, 2);
+  
+  const circle_circumference  = radius => 2 * Math.PI * radius;
+#+end_src
